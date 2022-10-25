@@ -3,7 +3,7 @@
     "background_color": "#151515",
     "display": "standalone",
     "scope": "/",
-    "start_url": "/index.js",
+    "start_url": "/index.html",
     "name": "Legenden Tobias",
     "short_name": "LT",
     "description": "Legendary Site",
