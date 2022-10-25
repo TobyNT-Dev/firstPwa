@@ -1,0 +1,70 @@
+/* reset*/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+
+#content {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 10vw 0 10vw;
+    #pic {
+        h1 {
+            margin: 0 0 0.5em 0;
+            font-size: 7vw;
+        }
+        img {
+            width: 100%;
+        }
+        width: 80vw;
+    }
+    #info {
+        h1 {
+            margin: 0 0 1em 0;
+            font-size: 7vw;
+            width: 100%;
+        }
+        width: 80vw;
+    }
+}
+nav {
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    #content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 1em 25vw 0 25vw;
+        #pic {
+            h1 {
+                margin: 0 0 1em 0;
+                font-size: 2vw;
+            }
+            img {
+                width: 25vw;
+            }
+        }
+        #info {
+            h1 {
+                margin: 0 0 1em 0;
+                font-size: 2vw;
+            }
+            width: 25vw;
+        }
+    }
+    nav {
+        display: none;
+    }
+}
